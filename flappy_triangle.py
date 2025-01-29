@@ -61,8 +61,6 @@ class FlappyTriange:
 
 
 def tick(frame):
-    # global ax, ft, line
-    # ax.clear()
     if not frame % 60:
         ft.update_velocities()
     ft.tick()
